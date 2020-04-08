@@ -1,21 +1,11 @@
 # Multi-class Classification
-In this repository implementation of some multiclass classification algorithms have been provided. Some of these algorithms have been designed for muti class inputs and
-some uses one-vs-rest(all) strategy. Below you can find the list of the algorithms implemented.
+In this repository implementation of some multiclass classification algorithms have been provided. Some of these algorithms have been designed for muti class inputs except Bayesian Regression which is banary and uses one-vs-rest strategy. Below you can find the list of the implemented algorithms.
 
 * multinomial Logistic Regression
 * Weighted Logistic Regression
 * Bayesian Logistic Regression (Two classes using one-vs-rest)
 * Gaussian Generative classification
 * Gaussian Naive Bayes Classification
-
-## How to run
-1- add measure function folder (if you cant wait for *is not found in the current folder* error and click on *add its folder to the MATLAB path*)
-
-2- read the features and labels into **fts** and **labels** variables;
-
-3- Use any of the ML algorithms just like the way used in **main.m**
-
-4- run **main.m**
 
 ## Results
 Three datasets, PIE, VOC, MSRC was used for evaluating the code. Below you can find the result of each algorithm using *5-folding*.
@@ -55,6 +45,16 @@ Generative Naive Bayes | 0.86      | 0.2    | 0.29
 The ROC plot for these algorithms has been provided below.
 
 <img src="voc_roc.jpg" width=500>
+
+
+## How to run
+1- add measure function folder (if you cant wait for *is not found in the current folder* error and click on *add its folder to the MATLAB path*)
+
+2- read the features and labels into **fts** and **labels** variables;
+
+3- Use any of the ML algorithms just like the way used in **main.m**
+
+4- run **main.m**
 
 
 ## sources

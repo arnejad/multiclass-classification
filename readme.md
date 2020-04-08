@@ -54,7 +54,7 @@ Generative Naive Bayes | 0.86      | 0.2    | 0.29
 
 The ROC plot for these algorithms has been provided below.
 
-<h1 src="voc_roc.jpg" width=500>
+<img src="voc_roc.jpg" width=500>
 
 
 ## sources
